@@ -1,0 +1,369 @@
+
+
+body {
+  background-image: url('image/background.jpeg');
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  max-height: 1080px;
+}
+
+a {
+	 text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, p, a {
+	color: white;
+}
+
+h1 {
+  margin-top:0px;
+}
+
+/* ====== Header ====== */
+.logo {
+	font-size: 30px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.banner {
+	margin: 0 auto;
+	font-size: 38px;
+	color: #CC0000;
+}
+
+.login-button {
+	position: absolute;
+	right: 15px;
+	top: 25px;
+}
+
+.navbar {
+	height: 60px;
+	margin-top: 10px;
+	background-color: #8DB3B3;
+	background-size: cover;
+	color: white;
+}
+
+.nav-list {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: white;
+  font-size: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+	font-family: sans-serif;
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  margin: 25px 120px 25px 0;
+  color: white;
+  z-index: 2;
+}
+
+.nav-list a:hover{
+  color: #005555 ;
+}
+
+.container {
+  margin: 50px auto;
+  width: 640px;
+  padding: 180px;
+}
+ /*=======Nav footer=======*/
+
+ .navbtm {
+  background: #8DB3B3;
+ 	height: 125px;
+	width:100%;
+	color: white;
+  clear:both;
+  float: left;
+  position: absolute;
+  bottom: 0px;
+  left:0;
+ }
+
+/* ====== Login Form ====== */ 
+.login p.submit {
+  text-align: right;
+}
+ 
+.login-help {
+  margin: 20px 0;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px #2a85a1;
+}
+ 
+.login-help a {
+  color: #cce7fa;
+  text-decoration: none;
+}
+ 
+ .login-help a:hover {
+  text-decoration: underline;
+}
+ 
+ /*====icons====*/
+
+.footer-social { 
+  float: none; 
+  margin-top:5px;
+  margin: 0 auto;
+  font-size: 12px;
+  position: static;
+}
+.footer-social li { 
+  display: inline;
+  margin: 15px 2px 15px 2px;
+}
+
+.footer-social span { 
+  margin-top: 1px;
+}
+
+.store {
+  float: none;
+  margin: 0 auto;
+  position: static;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.store p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.connect {
+  float: none;
+  font-size: 12px;
+  margin: 0 auto;
+  position: static;
+}
+
+/*====*/
+p.txt:hover{
+  color: #669990;
+  text-decoration: underline;
+}
+
+.row {
+  /*max-width: 960px;*/
+  width: 100%;
+  margin-right: 0;
+}
+
+.col-1, 
+.col-3,
+.col-5 {
+  float:left;
+  width: 25%;
+  margin: 0 0%;
+  position: relative;
+
+}
+
+.col-2 {
+   padding-top: 125px;
+}
+
+.col-4,
+.col-6 {
+  padding-bottom: 140px;
+  margin: 10px 3px 5px 0;
+}
+
+.col-2,
+.col-4,
+.col-6 {
+  float:left;
+  width: 25%;
+  margin: 0 0%;
+  letter-spacing: .5px;
+}
+
+.col-2 li {
+  margin: 25px 12px 25px 0;
+  font-size: 12px;
+  letter-spacing: .5px;
+  cursor: pointer;
+}
+
+.col-2 li:hover {
+  text-decoration: underline;
+  color: #669990;
+}
+
+.col-2 ul:hover {
+  color: #669990;
+  cursor: pointer;
+}
+
+.navbtm-row {
+  /*max-width: 960px;*/
+  width: 100%;
+}
+
+.navbtm-col-1 {
+  float:left;
+  position: static;
+  width: 32%;
+  margin:10px 0.6666%;
+  padding-right: 50px 50px;
+}
+
+#sit:hover{
+    content: url('image/women-2.jpg');
+    cursor: pointer;
+}
+
+#stand:hover{
+    content: url('image/women-3.jpg');
+    cursor: pointer;
+}
+
+.navbar-chk {
+  height: 60px;
+  margin-top: 10px;
+  background-color: #8DB3B3;
+  background-size: cover;
+  color: white;
+}
+
+.nav-lichk {
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: .5px;
+color: white;
+font-size: 12px;
+}
+
+.nav-lichk li {
+  font-family: sans-serif;
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  margin: 25px 120px 25px 0;
+  color: white;
+  z-index: 2;
+}
+
+.nav-lichk a:hover{
+  color: #005555 ;
+}
+
+a.nav-lichk{
+  margin: 0 auto;
+}
+
+/*=====byCat text====*/
+
+.descrp2 {
+  margin-top: 30px;
+}
+
+.descrp2:hover {
+  color: lightgrey;
+  cursor: pointer;
+}
+
+.price, .descrp2 {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #669990;
+  text-align: center;
+  text-shadow: 0 2px black;
+}
+
+a.txt, 
+.descrp,
+.chkout-title,
+ {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #669990;
+  text-align: center;
+  text-shadow: 0 2px black;
+}
+
+/*=====b-index body here=====*/
+
+.row-1 {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.col-7,
+.coll-9 {
+  float: left;
+  width: 71%;
+  margin: 0 2%;
+}
+
+#newsletter:hover {
+  content: url('image/printedsilk.jpg');
+    cursor: pointer;
+}
+
+.sz-r:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.newstxt,
+.sztxt,
+.sz-r{
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+/*=====Checkout Form=====*/
+.chkout {
+  width: 270px;
+  margin: 50px auto;
+  padding: 15px;
+  background: #f3f6fa;
+  border: 1px solid;
+  border-color: #c2cadb #bbc5d6 #b7c0cd;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.chkout-header {
+  position: relative;
+  margin: -15px -15px 15px;
+}
+
+.chkout-header {
+  position: relative;
+  margin: -15px -15px 15px;
+}
+
+.chkout-title {
+  padding: 0 15px;
+  line-height: 38px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #7f889e;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.7);
+  background: #eceff5;
+  border-bottom: 1px solid #c5ccdb;
+  border-radius: 7px 7px 0 0;
+  }
+
